@@ -3,7 +3,7 @@
 ![example workflow](https://github.com/mint-hosting/docker-ubuntu2004-ansible/actions/workflows/build.yml/badge.svg)
 
 
-Ubuntu 20.04 LTS (Bionic) Docker container for Ansible playbook and role testing.
+Ubuntu 20.04 LTS (Focal Fossa) Docker container for Ansible playbook and role testing.
 
 ## How to Build
 
