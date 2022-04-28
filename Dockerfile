@@ -3,7 +3,7 @@ LABEL maintainer="Mint Hosting"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV pip_packages [ansible, docker]
+ENV pip_packages ansible docker
 
 # Install dependencies.
 RUN apt-get update \
