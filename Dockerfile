@@ -43,4 +43,5 @@ RUN echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 RUN rm -f /lib/systemd/system/systemd*udev* \
   && rm -f /lib/systemd/system/getty.target
 
+VOLUME ["/tmp", "/run"]
 CMD [ "/lib/systemd/systemd", "log-level=info", "unit=sysinit.target" ]
